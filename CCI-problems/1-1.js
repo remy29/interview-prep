@@ -7,7 +7,7 @@ function isUnique(s) {
     }
     alreadyOccured.push(letter);
   }
-  if (same === true) {
+  if (same) {
     return "NO";
   }
   return "YES";
